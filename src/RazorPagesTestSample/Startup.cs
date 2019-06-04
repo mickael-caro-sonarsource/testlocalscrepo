@@ -41,6 +41,8 @@ namespace RazorPagesTestSample
             app.UseCookiePolicy();
             app.UseMvc();
 
+            //TODO
+
         }
     }
 }
