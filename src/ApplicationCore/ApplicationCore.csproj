@@ -10,4 +10,10 @@
 		<PackageReference Include="System.Security.Claims" Version="4.3.0" />
 	</ItemGroup>
 
+	<ItemGroup>
+	  <None Update="prepare.ts">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
+
 </Project>
